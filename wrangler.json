@@ -4,6 +4,12 @@
   "name": "first-test",
   "migrations": [
     {
+      "tag": "v1",
+      "new_sqlite_classes": [
+        "TestClass"
+      ]
+    },
+    {
       "new_classes": ["Globe"],
       "tag": "v1"
     }
